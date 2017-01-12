@@ -10,9 +10,9 @@ apt update
 apt install -y mariadb-server mariadb-client apache2 php5.6 php5.6-soap php5.6-ldap php5.6-mysql php5.6-gd php5.6-xml php5.6-curl php5.6-mbstring php5.6-zip antiword poppler-utils html2text unrtf
 
 # Set up database
-mysql -u root --execute="CREATE DATABASE opencats;"
-mysql -u root --execute="CREATE USER 'opencats'@'localhost' IDENTIFIED BY 'opencats';"
-mysql -u root --execute="GRANT ALL PRIVILEGES ON opencats.* TO 'opencats'@'localhost';"
+mysql -u root --execute="CREATE DATABASE cats_dev;"
+mysql -u root --execute="CREATE USER 'cats'@'localhost' IDENTIFIED BY 'password';"
+mysql -u root --execute="GRANT ALL PRIVILEGES ON cats_dev.* TO 'cats'@'localhost';"
 
 # Download OpenCATS
 cd /var/www/html
