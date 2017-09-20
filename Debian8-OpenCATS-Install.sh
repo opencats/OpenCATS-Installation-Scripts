@@ -14,20 +14,10 @@ mysql -u root --execute="GRANT ALL PRIVILEGES ON cats_dev.* TO 'cats'@'localhost
 
 # Download OpenCATS
 cd /var/www/html
-wget https://github.com/opencats/OpenCATS/archive/0.9.3-3.tar.gz
-tar -xvzf 0.9.3-3.tar.gz
-mv OpenCATS-0.9.3-3 opencats
-cd /var/www/html/opencats
-
-# Install composer
-cd /usr/src
-curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-cd /var/www/html/opencats
-
-
-# Install OpenCATS composer dependancies
-composer install
-cd ..
+wget https://github.com/opencats/OpenCATS/releases/download/0.9.4/opencats-0.9.4-full.zip
+unzip opencats-0.9.4-full.zip
+mv /var/www/html/home/travis/build/opencats/OpenCATS opencats
+rm -Rf /var/www/html/home /var/www/html/opencats/INSTALL_BLOCK
 
 # Set file and folder permissions
 chown www-data:www-data -R opencats && chmod -R 770 opencats/attachments opencats/upload
