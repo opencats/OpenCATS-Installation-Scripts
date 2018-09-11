@@ -7,7 +7,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt update
 add-apt-repository -y ppa:ondrej/php
 apt update
-apt install -y mariadb-server mariadb-client apache2 php5.6 php5.6-soap php5.6-ldap php5.6-mysql php5.6-gd php5.6-xml php5.6-curl php5.6-mbstring php5.6-zip antiword poppler-utils html2text unrtf
+apt install -y unzip mariadb-server mariadb-client apache2 php5.6 php5.6-soap php5.6-ldap php5.6-mysql php5.6-gd php5.6-xml php5.6-curl php5.6-mbstring php5.6-zip antiword poppler-utils html2text unrtf
 
 # Set up database
 mysql -u root --execute="CREATE DATABASE cats_dev;"
