@@ -1,5 +1,5 @@
 # OpenCATS-Installation-Scripts
-See Documentation for Script usag: https://opencats-documentation.readthedocs.io/en/latest/InstallScripts-Linux.html
+See Documentation for Script usage: https://opencats-documentation.readthedocs.io/en/latest/InstallScripts-Linux.html
 
 
 To use the installation run file (works, but there may be bugs, so consider it Beta), see instructions below:
