@@ -3,7 +3,8 @@ See Documentation for Script usage.
 
 To use the installation run file (works, but there may be bugs, so consider it Beta), see instructions below:
 
-Built for Ubuntu 18.04 Only.
+Built for Ubuntu 18.04 Fresh install Only.  IT will install a full lamp environement with php5.6.  If you've alreay got php 7 on your machine...there will be issues.
+
 Download the run file
 
 sudo chmod +x /filelocation/opencats-0.9.4-3-linux-x64-installer.run
