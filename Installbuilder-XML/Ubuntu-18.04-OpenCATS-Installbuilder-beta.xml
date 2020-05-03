@@ -1,0 +1,306 @@
+<project>
+    <shortName>opencats</shortName>
+    <fullName>OpenCATS Applicant Tracking System</fullName>
+    <version>0.9.4-3</version>
+    <readmeFile>/home/stacey/Documents/Opencats/opencats/README.md</readmeFile>
+    <licenseFile>/home/stacey/Documents/Opencats/opencats/LICENSE.md</licenseFile>
+    <logoImage>/home/stacey/Documents/Opencats/opencats/images/cats_icon.gif</logoImage>
+    <componentList>
+        <component>
+            <name>default</name>
+            <description>Default Component</description>
+            <canBeEdited>1</canBeEdited>
+            <selected>1</selected>
+            <show>1</show>
+            <folderList>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfiles</name>
+                    <platforms>all</platforms>
+                    <shortcutList>
+                        <shortcut>
+                            <comment>Uninstall</comment>
+                            <exec>${installdir}/${uninstallerName}</exec>
+                            <icon></icon>
+                            <name>Uninstall ${product_fullname}</name>
+                            <path>${installdir}</path>
+                            <platforms>all</platforms>
+                            <runAsAdmin>1</runAsAdmin>
+                            <runInTerminal>0</runInTerminal>
+                            <windowsExec>${installdir}/${uninstallerName}.exe</windowsExec>
+                            <windowsExecArgs></windowsExecArgs>
+                            <windowsIcon></windowsIcon>
+                            <windowsPath>${installdir}</windowsPath>
+                        </shortcut>
+                    </shortcutList>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileslinux</name>
+                    <platforms>linux</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileslinux64</name>
+                    <platforms>linux-x64</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/.gitignore</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/.travis.yml</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/ajax.php</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/careersPage.css</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/CHANGELOG.MD</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/composer.json</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/composer.lock</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/config.php</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/constants.php</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/Error.tpl</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/ie.css</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/index.php</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/installtest.php</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/installwizard.php</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/issue_template.md</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/LICENSE.md</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/main.css</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/not-ie.css</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/QueueCLI.php</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/README.md</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/opencats/rebuild_old_docs.php</origin>
+                        </distributionFile>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/.github</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/ajax</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/attachments</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/careers</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/ci</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/ckeditor</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/db</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/docker</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/images</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/js</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/lib</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/modules</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/optional-updates</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/rss</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/scripts</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/src</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/temp</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/test</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/upload</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/wsdl</origin>
+                        </distributionDirectory>
+                        <distributionDirectory>
+                            <origin>/home/stacey/Documents/Opencats/opencats/xml</origin>
+                        </distributionDirectory>
+                        <distributionFile>
+                            <origin>/home/stacey/Documents/Opencats/ib-cats.sh</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileswindows</name>
+                    <platforms>windows</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileswindows64</name>
+                    <platforms>windows-x64</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfilesosx</name>
+                    <platforms>osx</platforms>
+                </folder>
+            </folderList>
+            <startMenuShortcutList>
+                <startMenuShortcut>
+                    <comment>Uninstall ${product_fullname}</comment>
+                    <name>Uninstall ${product_fullname}</name>
+                    <runAsAdmin>0</runAsAdmin>
+                    <runInTerminal>0</runInTerminal>
+                    <windowsExec>${installdir}/${uninstallerName}.exe</windowsExec>
+                    <windowsExecArgs></windowsExecArgs>
+                    <windowsIcon></windowsIcon>
+                    <windowsPath>${installdir}/</windowsPath>
+                </startMenuShortcut>
+            </startMenuShortcutList>
+        </component>
+    </componentList>
+    <preInstallationActionList>
+        <setInstallerVariable>
+            <name>installdir</name>
+            <value>/var/www/html/${product_shortname}</value>
+        </setInstallerVariable>
+    </preInstallationActionList>
+    <postInstallationActionList>
+        <runProgram>
+            <program>add-apt-repository</program>
+            <programArguments>-y ppa:ondrej/php</programArguments>
+        </runProgram>
+        <runProgram>
+            <explanation>Updates</explanation>
+            <program>apt-get</program>
+            <programArguments>update -y</programArguments>
+            <progressText>Updateing software</progressText>
+        </runProgram>
+        <runProgram>
+            <explanation>Updates</explanation>
+            <program>apt-get</program>
+            <programArguments>install -y --no-install-recommends mariadb-server mariadb-client apache2 php5.6 php5.6-soap php5.6-ldap php5.6-mysql php5.6-gd php5.6-xml php5.6-curl php5.6-mbstring php5.6-zip antiword poppler-utils html2text unrtf</programArguments>
+            <progressText>software installing</progressText>
+        </runProgram>
+        <runProgram>
+            <explanation>Installing a whole bunch of things now</explanation>
+            <program>apt-get</program>
+            <programArguments>install -y composer</programArguments>
+            <progressText>software installing</progressText>
+        </runProgram>
+        <runProgram>
+            <explanation>Mysql stuff</explanation>
+            <program>echo</program>
+            <programArguments>"CREATE DATABASE cats_dev;" | mysql --user=root</programArguments>
+            <progressText>Mysql stuff</progressText>
+        </runProgram>
+        <runProgram>
+            <explanation>Mysql stuff</explanation>
+            <program>echo</program>
+            <programArguments>"CREATE USER 'cats'@'localhost' IDENTIFIED BY 'password';" | mysql --user=root</programArguments>
+            <progressText>Mysql stuff</progressText>
+        </runProgram>
+        <runProgram>
+            <explanation>priveleges</explanation>
+            <program>echo</program>
+            <programArguments>"GRANT ALL PRIVILEGES ON cats_dev.* TO 'cats'@'localhost';" | mysql --user=root</programArguments>
+            <progressText>priveleges</progressText>
+        </runProgram>
+        <runProgram>
+            <explanation>Composer stuff</explanation>
+            <program>composer</program>
+            <programArguments>install -d /var/www/html/opencats</programArguments>
+            <progressText>Composer stuff</progressText>
+        </runProgram>
+        <runProgram>
+            <explanation>quicker now</explanation>
+            <program>/var/www/html/opencats/ib-cats.sh</program>
+            <programArguments></programArguments>
+            <progressText>Final script</progressText>
+        </runProgram>
+        <launchBrowser>
+            <url>http://localhost/opencats</url>
+        </launchBrowser>
+    </postInstallationActionList>
+    <enableRollback>1</enableRollback>
+    <enableTimestamp>1</enableTimestamp>
+    <outputDirectory>/home/stacey/Documents/Opencats/Installbuilderinfo/Install-files</outputDirectory>
+    <saveRelativePaths>1</saveRelativePaths>
+    <vendor>OpenCATS.Org</vendor>
+    <parameterList>
+        <directoryParameter>
+            <name>installdir</name>
+            <description>Installer.Parameter.installdir.description</description>
+            <explanation>Installer.Parameter.installdir.explanation</explanation>
+            <value></value>
+            <default>/var/www/html/${product_shortname}</default>
+            <allowEmptyValue>0</allowEmptyValue>
+            <cliOptionName>prefix</cliOptionName>
+            <mustBeWritable>1</mustBeWritable>
+            <mustExist>0</mustExist>
+            <width>30</width>
+        </directoryParameter>
+    </parameterList>
+    <platformOptionsList>
+        <platformOptions>
+            <platform>linux-x64</platform>
+        </platformOptions>
+        <platformOptions>
+            <platform>deb</platform>
+        </platformOptions>
+    </platformOptionsList>
+</project>
+
+
